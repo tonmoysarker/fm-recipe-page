@@ -40,7 +40,8 @@ li {
   flex-grow: 1;
   background-color: var(--white);
   color: var(--stone-600);
-  max-width: 960px;
+  width: 100%;
+  max-width: 900px;
 }
 
 section {
@@ -126,4 +127,24 @@ section {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media queries */
+@media (min-width: 916px) {
+  body {
+    padding: 10rem 0;
+  }
+  .recipe-container {
+    border-radius: 20px;
+    padding: 3rem;
+  }
+  .recipe-header__image {
+    border-radius: 10px;
+  }
+  section,
+  .recipe-header__title,
+  .recipe-header__description {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
