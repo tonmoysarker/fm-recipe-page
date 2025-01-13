@@ -49,7 +49,7 @@ section {
 
 .section-divider {
   width: 90%;
-  border-bottom: 0.5px solid var(--stone-150);
+  border-bottom: 0px solid var(--stone-150);
 }
 
 .page-heading,
@@ -100,6 +100,23 @@ section {
   font-family: "Outfit", sans-serif;
   font-size: 1.2rem;
   color: var(--rose-800);
+}
+
+.recipe-nutrients__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.recipe-nutrients__table tr:not(:last-child) {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.recipe-nutrients__table td {
+  padding: 1rem 0;
+}
+.recipe-nutrients__table td.right-col {
+  font-weight: 600;
+  color: var(--brown-800);
 }
 /* Attribution */
 .attribution {
