@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-/* Remove default margin */
+/* Remove default margin. (modified for ul, ol and added padding rule) */
 body,
 h1,
 h2,
@@ -17,8 +17,11 @@ p,
 figure,
 blockquote,
 dl,
-dd {
+dd,
+ul,
+ol {
   margin: 0;
+  padding: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
